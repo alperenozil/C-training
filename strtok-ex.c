@@ -10,7 +10,7 @@ int main()
 
     // Prints all words 
     while (word != NULL) { 
-        printf("%s\n", token); 
+        printf("%s\n", word); 
         word = strtok(NULL, "-"); 
     } 
     return 0; 
