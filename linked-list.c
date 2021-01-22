@@ -22,6 +22,11 @@ int main()
 	second->next = third; 
 	third->data = 3;
 	third->next = NULL; 
-	
+
+	while(head!=NULL){
+		printf("%d\n", head->data);
+		head=head->next;
+	}
+
 	return 0; 
 } 
